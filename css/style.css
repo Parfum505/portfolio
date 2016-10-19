@@ -22,7 +22,6 @@ html,body{
 	text-rendering: optimizeSpeed;
 }
 .bg{
-	content: "";
 	display: block;
 	position: fixed;
 	top: 0;
