@@ -40,4 +40,4 @@ $(window).scroll(function(){
         }
 });
 
-})
+});
