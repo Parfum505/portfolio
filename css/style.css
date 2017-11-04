@@ -205,10 +205,26 @@ header{
 
 #projects a{
 	display: inline-block;
+	position: relative;
 	overflow: hidden;
 	margin: 4% auto;
 }
-#projects img{
+#projects a .description{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 0.8em;
+	color: white;
+	padding: 10px;
+	left: 0;
+	bottom:-60px;
+	z-index: 10;
+}
+#projects a:hover .description{
+	bottom: 0;
+}
+#projects img, #projects a .description{
 	transition: .3s;
 }
 #projects:hover img{
@@ -273,7 +289,6 @@ header{
 	.row{margin-left: 0; margin-right: 0;}
 	section{padding: 2% 0 4%;}
 	.about p{font-size: 100%; padding: 2% 1%;}
-	.about img, #projects img{ border-radius: 10%;}
 	.form-group input, .form-group textarea{margin-bottom: 5%;}
 	.social_icons i{font-size: 150%;}
 }
