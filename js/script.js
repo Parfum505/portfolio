@@ -40,6 +40,7 @@ $(window).scroll(function(){
         }
 });
 var projects = [
+	{'link': 'http://parfum505.000webhostapp.com/mexicanfood/', 'foto': 'mexicanfood.jpg', 'description': 'HTML template into WordPress'},
 	{'link': 'http://parfum505.000webhostapp.com/bookshop/', 'foto': 'bookshop.jpg', 'description': 'PHP, MySQL, JS'},
 	{'link': 'http://parfum505.000webhostapp.com/todolist/', 'foto': 'todoListPHP.jpg', 'description': 'PHP, MySQL, JQuery'},
 	{'link': 'http://parfum505.000webhostapp.com/weatherapp', 'foto': 'weatherAngular.jpg', 'description': 'AngularJS 1.5, Bootstrap'},
@@ -47,7 +48,7 @@ var projects = [
 	{'link': 'https://parfum505.github.io/twitchTV/build/', 'foto': 'twitchTV.jpg', 'description': 'JS, JSON, Twitch.tv API'},
 	{'link': 'https://parfum505.github.io/pomodoroClock/', 'foto': 'pomodoroClock.jpg', 'description': 'JS, FCC project'},
 	{'link': 'https://parfum505.github.io/searchYouTube/', 'foto': 'searchYouTube.jpg', 'description': 'JS, JSON, YouTube API'},
-	{'link': 'https://parfum505.github.io/JS_Calculator/', 'foto': 'calculator.jpg', 'description': 'JS, , FCC project'},
+	{'link': 'https://parfum505.github.io/JS_Calculator/', 'foto': 'calculator.jpg', 'description': 'JS, FCC project'},
 	{'link': 'https://codepen.io/Parfum505/full/ZORgYN/', 'foto': 'weatherApp.jpg', 'description': 'JQuery, JSON, Bootstrap, Forecast API'},
 	{'link': 'http://codepen.io/Parfum505/full/NAzvjZ/', 'foto': 'quote.jpg', 'description': 'JQuery, JSON, Forismatic API'},
 	{'link': 'http://codepen.io/Parfum505/full/dXqvyo/', 'foto': 'wiki.jpg', 'description': 'JQuery, JSON,Bootstrap, Wiki API'},
