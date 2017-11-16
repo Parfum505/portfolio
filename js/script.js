@@ -39,12 +39,14 @@ $(window).scroll(function(){
           $('nav').removeClass('sticky');
         }
 });
+
 var projects = [
 	{'link': 'http://parfum505.000webhostapp.com/mexicanfood/', 'foto': 'mexicanfood.jpg', 'description': 'HTML template into WordPress'},
 	{'link': 'http://parfum505.000webhostapp.com/bookshop/', 'foto': 'bookshop.jpg', 'description': 'PHP, MySQL, JS'},
 	{'link': 'http://parfum505.000webhostapp.com/todolist/', 'foto': 'todoListPHP.jpg', 'description': 'PHP, MySQL, JQuery'},
 	{'link': 'http://parfum505.000webhostapp.com/weatherapp', 'foto': 'weatherAngular.jpg', 'description': 'AngularJS 1.5, Bootstrap'},
 	{'link': 'https://parfum505.github.io/angularJSprojects/LiveSearch/index.html#/list', 'foto': 'liveSearch.jpg', 'description': 'AngularJS 1.5'},
+	{'link': 'https://parfum505.github.io/AJAX_JSON/TicTacToe/', 'foto': 'TicTacToe.jpg', 'description': 'JS, FCC project'},
 	{'link': 'https://parfum505.github.io/twitchTV/build/', 'foto': 'twitchTV.jpg', 'description': 'JS, JSON, Twitch.tv API'},
 	{'link': 'https://parfum505.github.io/pomodoroClock/', 'foto': 'pomodoroClock.jpg', 'description': 'JS, FCC project'},
 	{'link': 'https://parfum505.github.io/searchYouTube/', 'foto': 'searchYouTube.jpg', 'description': 'JS, JSON, YouTube API'},
